@@ -1,0 +1,34 @@
+.elementor-5637 .elementor-element.elementor-element-495b9447 > .elementor-container{max-width:750px;}.elementor-5637 .elementor-element.elementor-element-495b9447{padding:30px 100px 150px 100px;}.elementor-5637 .elementor-element.elementor-element-465cc2c{text-align:center;}.elementor-5637 .elementor-element.elementor-element-465cc2c .elementor-heading-title{color:var( --e-global-color-text );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-5637 .elementor-element.elementor-element-6fe213e1{text-align:center;}.elementor-5637 .elementor-element.elementor-element-6c798ba6 .elementor-button{background-color:var( --e-global-color-primary );}.elementor-5637 .elementor-element.elementor-element-7d66db9c .elementor-button{font-family:"Open Sans", Sans-serif;font-weight:500;text-transform:capitalize;fill:var( --e-global-color-secondary );color:var( --e-global-color-secondary );}.elementor-5637 .elementor-element.elementor-element-28b9a43 > .elementor-container{max-width:750px;}.elementor-5637 .elementor-element.elementor-element-28b9a43:not(.elementor-motion-effects-element-type-background), .elementor-5637 .elementor-element.elementor-element-28b9a43 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-primary );}.elementor-5637 .elementor-element.elementor-element-28b9a43{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:180px 30px 100px 30px;}.elementor-5637 .elementor-element.elementor-element-28b9a43 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-5637 .elementor-element.elementor-element-6c24c9d5{text-align:center;}.elementor-5637 .elementor-element.elementor-element-6c24c9d5 .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-5637 .elementor-element.elementor-element-40552dd3{font-family:"Open Sans", Sans-serif;font-weight:400;}.elementor-5637 .elementor-element.elementor-element-f56ae89 > .elementor-container{max-width:750px;}.elementor-5637 .elementor-element.elementor-element-f56ae89:not(.elementor-motion-effects-element-type-background), .elementor-5637 .elementor-element.elementor-element-f56ae89 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("/wp-content/uploads/2023/06/photo-1515615424560-27cdb10de410-1.jpeg");background-position:center center;}.elementor-5637 .elementor-element.elementor-element-f56ae89 > .elementor-background-overlay{opacity:0.56;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-5637 .elementor-element.elementor-element-f56ae89{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:80px 80px 80px 80px;}.elementor-5637 .elementor-element.elementor-element-4bfb4f9{text-align:center;}.elementor-5637 .elementor-element.elementor-element-4bfb4f9 .elementor-heading-title{color:var( --e-global-color-text );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-5637 .elementor-element.elementor-element-6cc1256a{color:var( --e-global-color-text );}:root{--page-title-display:none;}@media(max-width:767px){.elementor-5637 .elementor-element.elementor-element-495b9447{padding:30px 30px 200px 30px;}.elementor-5637 .elementor-element.elementor-element-f56ae89{padding:30px 30px 30px 30px;}}/* Start custom CSS for button, class: .elementor-element-7d66db9c */#gifts-unwrapped-button {
+    opacity: 0;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+#gifts-unwrapped-button.fade-in {
+    animation: fadeIn 500ms ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1) rotateZ(-4deg);
+  }
+  50% {
+    transform: scale(1.15) rotateZ(4deg);
+  }
+  75% {
+    transform: scale(1.25) rotateZ(-4deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-495b9447 */.elementor-5637 .elementor-element.elementor-element-495b9447 {
+    position: relative;
+    overflow: hidden !important;
+}/* End custom CSS */

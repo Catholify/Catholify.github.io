@@ -1,0 +1,40 @@
+/*!
+	Theme Name: Catholify Theme
+	Theme URI: https://catholify.com
+	Description: Custom Theme for Catholify.com
+	Author: Joseph Schultz <joseph@acupofjose.com>
+  Author URI: https://catholify.com
+  Template: hello-elementor
+  Text Domain: hello-elementor-child
+  Version: 1.0.0
+*/
+
+body.elementor-kit-5 {
+	--e-global-typography-primary-font-size: 3.25rem;
+}
+
+.page-content a:not(.elementor-button):not(.no-underline):not(.elementor-toggle-title),
+.page-content button.link {
+	background-color: transparent;
+	text-decoration: underline;
+	border: none;
+	font-size: inherit;
+	margin: inherit;
+	padding: inherit;
+	color: var(--e-global-color-primary);
+	overflow-wrap: break-word;
+	word-break: break-word;
+	word-wrap: break-word;
+	/* border-bottom: 3px solid var(--e-global-color-primary);
+	box-shadow: inset 0 -2px 0 var(--e-global-color-primary); 
+	transition: box-shadow 0.15s cubic-bezier(0.33, 0.66, 0.66, 1), border 0.15s cubic-bezier(0.33, 0.66, 0.66, 1),
+  background 0.15s cubic-bezier(0.33, 0.66, 0.66, 1); */
+}
+
+.page-content a:not(.elementor-button):not(.no-underline):not(.elementor-toggle-title):hover,
+.page-content button.link {
+  text-decoration: none;
+	/* border-color: var(--e-global-color-accent) !important;
+	box-shadow: inset 0 -2px 0 var(--e-global-color-accent);
+	background-color: $link; */
+}
