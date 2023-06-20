@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>/</loc>
-		<lastmod>2023-06-15T02:31:28+00:00</lastmod>
+		<lastmod>2023-06-19T22:15:34+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-apple.png</image:loc>
 		</image:image>
@@ -45,9 +45,6 @@
 		<image:image>
 			<image:loc>/wp-content/uploads/2020/12/david-hill-150x150.jpg</image:loc>
 		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/newsletter.svg</image:loc>
-		</image:image>
 	</url>
 	<url>
 		<loc>/contact-us/</loc>
@@ -81,22 +78,6 @@
 		<lastmod>2021-02-07T08:10:24+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/consagracion-san-jose/</loc>
-		<lastmod>2021-03-23T22:17:56+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/03/cons-phone-preview-es.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-apple.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-android.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/screenshot.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/bridgeofroses/</loc>
 		<lastmod>2021-10-08T00:00:28+00:00</lastmod>
 		<image:image>
@@ -125,39 +106,6 @@
 		<image:image>
 			<image:loc>/wp-content/uploads/2021/10/FrJosephWolfe.jpg</image:loc>
 			<image:caption><![CDATA[Fr. Joseph M. Wolfe, MFVA]]></image:caption>
-		</image:image>
-	</url>
-	<url>
-		<loc>/live-rosary/</loc>
-		<lastmod>2021-11-10T16:40:15+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/elementor/thumbs/dominican-sisters-ozoefotls9hghulxzvc35iu9p2s1h7x5d3n5lnt87k.jpg</image:loc>
-			<image:title><![CDATA[dominican-sisters]]></image:title>
-			<image:caption><![CDATA[dominican-sisters]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/elementor/thumbs/screenshot-rosary-ozlanz5b5g3k7q3fqfq24v65rcwsrbamrvluylrjum.png</image:loc>
-			<image:title><![CDATA[screenshot-rosary]]></image:title>
-			<image:caption><![CDATA[screenshot-rosary]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/CLR-MMN-BLU__37177_540x-300x300.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/st-joseph-consecration/</loc>
-		<lastmod>2022-02-08T21:59:28+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/02/st-joseph-app-1024x697.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-apple.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-android.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/screenshot.png</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -207,93 +155,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/offering/</loc>
-		<lastmod>2022-06-24T15:56:48+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/logo.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-apple.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-android.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/05/homepage-mrc.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/mercy-night/</loc>
-		<lastmod>2022-11-28T19:12:07+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/elementor/thumbs/mercy-night-logo-pfttxde3h3u4scj1p4l2ad9bwkp133vq75wba1t9lo.png</image:loc>
-			<image:title><![CDATA[mercy-night-logo]]></image:title>
-			<image:caption><![CDATA[mercy-night-logo]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/12/NOM3-Website-1024x432.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/11/jonathan-roumie-150x150.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/11/fr-chris-alar-150x150.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/11/srbm-150x150.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/11/danielle-rose-150x150.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/11/VIGIL_2021_TEAM-1-150x150.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/11/sarah-150x150.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/11/ricky-150x150.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/11/ike-150x150.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2021/11/dom-150x150.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/elementor/thumbs/family-rosary-logo-ph8d1q8m9kas96t5kklj75fg9s9ytf9h2z1tzhn84w.png</image:loc>
-			<image:title><![CDATA[family-rosary-logo]]></image:title>
-			<image:caption><![CDATA[family-rosary-logo]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/elementor/thumbs/family-theater-logo-ph8d1r6ggec2ksrsf305rn6wv65c14d7f3pbgrltxk.png</image:loc>
-			<image:title><![CDATA[family-theater-logo]]></image:title>
-			<image:caption><![CDATA[family-theater-logo]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/elementor/thumbs/pray-film-logo-ph8d1r6ggec2ksrsf305rn6wv65c14d7f3pbgrltvc.png</image:loc>
-			<image:title><![CDATA[pray-film-logo]]></image:title>
-			<image:caption><![CDATA[pray-film-logo]]></image:caption>
-		</image:image>
-	</url>
-	<url>
-		<loc>/pilgrimrosary/</loc>
-		<lastmod>2023-01-18T19:10:42+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/12/pr-logo-graphic-narrow.jpg</image:loc>
-			<image:title><![CDATA[pr-logo-graphic-narrow]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/12/pr-logo-graphic-narrow.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/11/pilgrim-rosary-beads-1024x485.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/12/stickers.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/testimony/</loc>
 		<lastmod>2023-04-20T16:01:11+00:00</lastmod>
 	</url>
@@ -302,53 +163,10 @@
 		<lastmod>2023-04-20T16:07:15+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/bethegift/</loc>
-		<lastmod>2023-04-20T16:07:27+00:00</lastmod>
-	</url>
-	<url>
-		<loc>/adore/</loc>
-		<lastmod>2023-05-09T15:07:42+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/girl-on-books.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/community-1024x930.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/holding-hands-1024x1024.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/newsletter.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/give/</loc>
-		<lastmod>2023-05-24T04:53:17+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/logo-300x59.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/girl-reading.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/talent-1024x1024.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/treasure.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/faqs/</loc>
 		<lastmod>2023-05-24T04:55:45+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2020/12/newsletter.svg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/praymo/</loc>
-		<lastmod>2023-05-24T05:00:43+00:00</lastmod>
-		<image:image>
-			<image:loc>/assets/images/user-thumb.png</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -1022,19 +840,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/mission/</loc>
-		<lastmod>2023-06-15T02:21:48+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/girl-on-books.svg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/community-1024x930.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/holding-hands-1024x1024.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/faqs-4/</loc>
 		<lastmod>2023-06-15T02:29:01+00:00</lastmod>
 		<image:image>
@@ -1171,22 +976,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/06/live-mass-notif-chop-1.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/06/get-it-icon-white-apple-1.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/06/get-it-icon-white-android-1.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/06/screenshot-1.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/st-joseph-consecration-5/</loc>
-		<lastmod>2023-06-15T02:29:29+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2023/06/st-joseph-app-1-1024x697.png</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/06/get-it-icon-white-apple-1.png</image:loc>
@@ -1393,6 +1182,214 @@
 		</image:image>
 		<image:image>
 			<image:loc>/wp-content/uploads/2023/06/stickers-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/give/</loc>
+		<lastmod>2023-06-19T22:08:20+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/logo-300x59.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/girl-reading.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/talent-1024x1024.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/treasure.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/mission/</loc>
+		<lastmod>2023-06-19T22:16:54+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/girl-on-books.svg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/community-1024x930.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/holding-hands-1024x1024.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/consagracion-san-jose/</loc>
+		<lastmod>2023-06-19T22:25:58+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/03/cons-phone-preview-es.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-apple.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-android.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/screenshot.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/st-joseph-consecration/</loc>
+		<lastmod>2023-06-19T22:27:58+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/02/st-joseph-app-1024x697.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-apple.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-android.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/screenshot.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/mercy-night/</loc>
+		<lastmod>2023-06-19T22:32:22+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/elementor/thumbs/mercy-night-logo-pfttxde3h3u4scj1p4l2ad9bwkp133vq75wba1t9lo.png</image:loc>
+			<image:title><![CDATA[mercy-night-logo]]></image:title>
+			<image:caption><![CDATA[mercy-night-logo]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/12/NOM3-Website-1024x432.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/11/jonathan-roumie-150x150.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/11/fr-chris-alar-150x150.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/11/srbm-150x150.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/11/danielle-rose-150x150.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/11/VIGIL_2021_TEAM-1-150x150.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/11/sarah-150x150.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/11/ricky-150x150.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/11/ike-150x150.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/11/dom-150x150.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/elementor/thumbs/family-rosary-logo-ph8d1q8m9kas96t5kklj75fg9s9ytf9h2z1tzhn84w.png</image:loc>
+			<image:title><![CDATA[family-rosary-logo]]></image:title>
+			<image:caption><![CDATA[family-rosary-logo]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/elementor/thumbs/family-theater-logo-ph8d1r6ggec2ksrsf305rn6wv65c14d7f3pbgrltxk.png</image:loc>
+			<image:title><![CDATA[family-theater-logo]]></image:title>
+			<image:caption><![CDATA[family-theater-logo]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/elementor/thumbs/pray-film-logo-ph8d1r6ggec2ksrsf305rn6wv65c14d7f3pbgrltvc.png</image:loc>
+			<image:title><![CDATA[pray-film-logo]]></image:title>
+			<image:caption><![CDATA[pray-film-logo]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>/offering/</loc>
+		<lastmod>2023-06-19T22:41:32+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/logo.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-apple.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/get-it-icon-white-android.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2021/05/homepage-mrc.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/bethegift/</loc>
+		<lastmod>2023-06-20T01:34:09+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/adoration.svg</image:loc>
+			<image:caption><![CDATA[Access to Adorecast from directly in the app. Make the time to Adore the LORD in the Eucharist when it's not possible for you to be present physically.]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/man-reading.svg</image:loc>
+			<image:caption><![CDATA[Our faith doesn't stop with prayer - it is deepened in our intellect as well! Find resources to do so within Catholify!]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/clock.svg</image:loc>
+			<image:caption><![CDATA[Set a reminder for anything at any time  to grow in virtue regularly each day.]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/rosary.svg</image:loc>
+			<image:caption><![CDATA[Need some structure to your rosary? Haptic feedback and mysteries? Meditations? We got it.]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/map.svg</image:loc>
+			<image:caption><![CDATA[We've integrated with MassTimes.org to bring Mass, Reconciliation, and Adoration near you.]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/note-list.svg</image:loc>
+			<image:caption><![CDATA[Never forget to pray for someone with your managed intentions list. Start a prayer session and take it with you throughout the app as you pray your Rosary, read Scripture, and more.]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>/adore/</loc>
+		<lastmod>2023-06-20T01:49:40+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/06/apple-app-store.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/06/google-play-store.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2023/02/homepage-2022-iphone.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/live-rosary/</loc>
+		<lastmod>2023-06-20T02:03:30+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/elementor/thumbs/screenshot-rosary-ozlanz5b5g3k7q3fqfq24v65rcwsrbamrvluylrjum.png</image:loc>
+			<image:title><![CDATA[screenshot-rosary]]></image:title>
+			<image:caption><![CDATA[screenshot-rosary]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/CLR-MMN-BLU__37177_540x-300x300.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/pilgrimrosary/</loc>
+		<lastmod>2023-06-20T02:05:44+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/12/pr-logo-graphic-narrow.jpg</image:loc>
+			<image:title><![CDATA[pr-logo-graphic-narrow]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/12/pr-logo-graphic-narrow.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/11/pilgrim-rosary-beads-1024x485.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/12/stickers.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/praymo/</loc>
+		<lastmod>2023-06-20T02:16:03+00:00</lastmod>
+		<image:image>
+			<image:loc>/assets/images/user-thumb.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
