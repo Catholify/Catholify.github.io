@@ -1316,34 +1316,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>/bethegift/</loc>
-		<lastmod>2023-06-20T01:34:09+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/adoration.svg</image:loc>
-			<image:caption><![CDATA[Access to Adorecast from directly in the app. Make the time to Adore the LORD in the Eucharist when it's not possible for you to be present physically.]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/man-reading.svg</image:loc>
-			<image:caption><![CDATA[Our faith doesn't stop with prayer - it is deepened in our intellect as well! Find resources to do so within Catholify!]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/clock.svg</image:loc>
-			<image:caption><![CDATA[Set a reminder for anything at any time  to grow in virtue regularly each day.]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/rosary.svg</image:loc>
-			<image:caption><![CDATA[Need some structure to your rosary? Haptic feedback and mysteries? Meditations? We got it.]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/map.svg</image:loc>
-			<image:caption><![CDATA[We've integrated with MassTimes.org to bring Mass, Reconciliation, and Adoration near you.]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>/wp-content/uploads/2020/12/note-list.svg</image:loc>
-			<image:caption><![CDATA[Never forget to pray for someone with your managed intentions list. Start a prayer session and take it with you throughout the app as you pray your Rosary, read Scripture, and more.]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>/adore/</loc>
 		<lastmod>2023-06-20T01:49:40+00:00</lastmod>
 		<image:image>
@@ -1390,6 +1362,34 @@
 		<lastmod>2023-06-20T02:16:03+00:00</lastmod>
 		<image:image>
 			<image:loc>/assets/images/user-thumb.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/bethegift/</loc>
+		<lastmod>2023-06-20T02:30:43+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/adoration.svg</image:loc>
+			<image:caption><![CDATA[Access to Adorecast from directly in the app. Make the time to Adore the LORD in the Eucharist when it's not possible for you to be present physically.]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/man-reading.svg</image:loc>
+			<image:caption><![CDATA[Our faith doesn't stop with prayer - it is deepened in our intellect as well! Find resources to do so within Catholify!]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/clock.svg</image:loc>
+			<image:caption><![CDATA[Set a reminder for anything at any time  to grow in virtue regularly each day.]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/rosary.svg</image:loc>
+			<image:caption><![CDATA[Need some structure to your rosary? Haptic feedback and mysteries? Meditations? We got it.]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/map.svg</image:loc>
+			<image:caption><![CDATA[We've integrated with MassTimes.org to bring Mass, Reconciliation, and Adoration near you.]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>/wp-content/uploads/2020/12/note-list.svg</image:loc>
+			<image:caption><![CDATA[Never forget to pray for someone with your managed intentions list. Start a prayer session and take it with you throughout the app as you pray your Rosary, read Scripture, and more.]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
