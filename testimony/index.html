@@ -206,7 +206,7 @@ img.emoji {
 				</div>
 				<div class="elementor-element elementor-element-03cb3d2 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="03cb3d2" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
 				<div class="elementor-widget-container">
-					<form class="elementor-form" method="post" name="Testimony Form">
+					<form onsubmit="submitTestimony(event);" class="elementor-form" method="post" name="Testimony Form">
 			<input type="hidden" name="post_id" value="93">
 			<input type="hidden" name="form_id" value="03cb3d2">
 
@@ -222,7 +222,7 @@ img.emoji {
 								<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-testimony elementor-col-100 elementor-field-required elementor-mark-required">
 					<label for="form-field-testimony" class="elementor-field-label">Testimony</label><textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[testimony]" id="form-field-testimony" rows="4" placeholder="Share your thoughts" required="required" aria-required="true"></textarea>				</div>
 								<div class="elementor-field-type-checkbox elementor-field-group elementor-column elementor-field-group-canUseElsewhere elementor-col-100">
-					<div class="elementor-field-subgroup  elementor-subgroup-inline"><span class="elementor-field-option"><input type="checkbox" value="Yes, you may use my testimony publicly" id="form-field-canUseElsewhere-0" name="form_fields[canUseElsewhere]"> <label for="form-field-canUseElsewhere-0">Yes, you may use my testimony publicly</label></span></div>				</div>
+					<div class="elementor-field-subgroup  elementor-subgroup-inline"><span class="elementor-field-option"><input type="checkbox" value="Yes, you may use my testimony publicly" id="form-field-canUseElsewhere" name="form_fields[canUseElsewhere]"> <label for="form-field-canUseElsewhere">Yes, you may use my testimony publicly</label></span></div>				</div>
 								<div class="elementor-field-type-hidden elementor-field-group elementor-column elementor-field-group-userId elementor-col-100">
 					<input size="1" type="hidden" name="form_fields[userId]" id="form-field-userId" class="elementor-field elementor-size-sm  elementor-field-textual">				</div>
 								<div class="elementor-field-type-hidden elementor-field-group elementor-column elementor-field-group-isWordpress elementor-col-100">
@@ -238,6 +238,8 @@ img.emoji {
 				</div>
 			</div>
 		</form>
+    <p id="form-success" style="display:none;color: rgb(71, 204, 71);">Received! God bless you 🙏</p>
+    <p id="form-error" style="display:none;color: rgb(217, 56, 56);">Sorry, something went wrong. Please try again.</p>
 				</div>
 				</div>
 						</div>
@@ -500,6 +502,34 @@ img.emoji {
 <script type="text/javascript" id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1365,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1620,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false}}},"version":"3.2.1","is_static":false,"experimentalFeatures":{"e_import_export":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":93,"title":"Testimony%20-%20Catholify","excerpt":"","featuredImage":false}};</script>
 <script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.2.1" id="elementor-frontend-js"></script>
 <script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.2.1" id="preloaded-modules-js"></script>
+<script>
+  async function submitTestimony(e) {
+    e.preventDefault()
+    const successEl = document.getElementById('form-success')
+    const errorEl = document.getElementById('form-error')
+    const params = new URLSearchParams(window.location.search)
 
+    const res = await fetch('https://us-central1-catholify-cc548.cloudfunctions.net/submitTestimony', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },    
+      body: JSON.stringify({
+        fields: {
+          email: { value: document.getElementById('form-field-email').value },
+          testimony: { value: document.getElementById('form-field-testimony').value },
+          name: { value: document.getElementById('form-field-name').value },
+          canUseElsewhere: { value: document.getElementById('form-field-canUseElsewhere').checked },
+          location: { value: document.getElementById('form-field-location').value },
+          userId: { value: params.get('userId') || '' }
+        }
+      })
+    });
+    if(res.ok) {
+      e.target.style.display = 'none'
+      successEl.style.display = 'block'
+    } else {
+      errorEl.style.display = 'block'
+    }
+  }
+</script>
 </body>
 </html>
