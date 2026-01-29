@@ -3,17 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 </head>
+<style>
+  html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  body {
+    position: absolute;width: 100%;height: 100%;top: 0;left: 0;bottom: 0;right: 0;display: flex;flex-direction: column;justify-content: center;align-items: center;
+  }
+</style>
 <body>
-  <div style='position: absolute;width: 100%;height: 100%;top: 0;left: 0;bottom: 0;right: 0;display: flex;flex-direction: column;justify-content: center;align-items: center;'>
-    <iframe width="100%" height="100%" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <script>
-      const iframe = document.querySelector('iframe');
-      const urlParams = new URLSearchParams(window.location.search);
-      const videoId = urlParams.get('id');
-      if (videoId) {
-        iframe.src = `https://www.youtube.com/embed/${videoId}?controls=0&rel=0&modestbranding=1&playsinline=1`;
-      }
-    </script>
-  </div>
+  <iframe width="100%" height="100%" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <script>
+    const iframe = document.querySelector('iframe');
+    const urlParams = new URLSearchParams(window.location.search);
+    const videoId = urlParams.get('id');
+    if (videoId) {
+      iframe.src = `https://www.youtube.com/embed/${videoId}?controls=0&rel=0&modestbranding=1&playsinline=1`;
+    }
+  </script>
 </body>
 </html>
