@@ -37,16 +37,6 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig)
 
-// Start: Google Analytics
-window.dataLayer = window.dataLayer || []
-
-function gtag() {
-  dataLayer.push(arguments)
-}
-gtag("js", new Date())
-gtag("config", "UA-159589120-1")
-// End: Google Analytics
-
 window.Catholify = (function () {
   const loaded = Date.now()
   const cache = {}
